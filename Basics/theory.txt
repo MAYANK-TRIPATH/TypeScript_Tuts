@@ -1,0 +1,35 @@
+               ***********TypScript**************
+- It is made on top of javaScript, advance upadated form of javaScript, more disciplined
+ JavaScript, TypeScript is javaScript with type checking.
+ - By using TS we can find error on runtime, we dont need for unit testing.
+
+*******************Benefits****************************
+Static typing
+Code Completion
+Refactoring
+Shorthand notation
+
+   We have two type of prog. lang.
+1. Static-Typed :- It has static variable,varible cannot be changed later
+eg. (C++, java, C#)       =>   int number = 10;
+                                number = "a"; (X)  --> wrong / cannot be done
+
+2. Dynamically-Typed :- It has dynamic varible, canbe changed later on runtime.
+eg. (JavaScript, Python, TS)    => let number = 10;
+                                    number = "a";   --> Allowed here
+            
+                    ( .ts ) ------> Compiler -------> ( .js )
+
+ 
+********************Fundamentals********************************
+
+                             Data types
+  JavaScript                                           TypeScript
+                                 | 
+   number                        |                      any 
+   string                        |                    unknown
+   boolean                       |                     never
+   null                          |                     enum
+   undefined                     |                     tuple 
+   object                        | 
+                                
